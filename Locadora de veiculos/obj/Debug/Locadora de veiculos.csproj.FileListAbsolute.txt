@@ -1,0 +1,82 @@
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\Locadora de veiculos.dll.config
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\Locadora de veiculos.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\Locadora de veiculos.pdb
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\csc.exe
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\csc.exe.config
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\csc.rsp
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\csi.exe
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\csi.exe.config
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\csi.rsp
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.AppContext.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Collections.Immutable.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Console.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Globalization.Calendars.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.IO.Compression.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.IO.FileSystem.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Net.Http.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Net.Sockets.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.ValueTuple.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Xml.XPath.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\vbc.exe
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\vbc.exe.config
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\vbc.rsp
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\VBCSCompiler.exe
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\roslyn\VBCSCompiler.exe.config
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\EntityFramework.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\EntityFramework.SqlServer.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\Microsoft.Web.Infrastructure.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\System.Web.Helpers.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\System.Web.Mvc.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\System.Web.Razor.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\System.Web.Webpages.Deployment.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\System.Web.Webpages.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\System.Web.Webpages.Razor.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\EntityFramework.xml
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\EntityFramework.SqlServer.xml
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\System.Web.Razor.xml
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\System.Web.Webpages.xml
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\System.Web.Webpages.Deployment.xml
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\System.Web.Webpages.Razor.xml
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\System.Web.Helpers.xml
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\System.Web.Mvc.xml
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\pt-br\System.Web.Razor.resources.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\pt-br\System.Web.Webpages.resources.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\pt-br\System.Web.Helpers.resources.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\bin\pt-br\System.Web.Mvc.resources.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\obj\Debug\Locadora de veiculos.csproj.AssemblyReference.cache
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\obj\Debug\Locadora de veiculos.csproj.CoreCompileInputs.cache
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\obj\Debug\Locadora de veiculos.csproj.CopyComplete
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\obj\Debug\Locadora de veiculos.dll
+D:\Projetos\Locadora de veiculos\Locadora de veiculos\obj\Debug\Locadora de veiculos.pdb
