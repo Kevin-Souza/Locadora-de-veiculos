@@ -1,4 +1,5 @@
 ﻿using Locadora_de_veiculos.Context;
+using Locadora_de_veiculos.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,19 @@ namespace Locadora_de_veiculos.Controllers
         {
             return View();
         }
+
+        //Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(Cliente cliente)
+        {
+            context.Clientes.Add(cliente);
+            context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        //Edit
+
 
     }
 }
