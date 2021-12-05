@@ -3,6 +3,7 @@ using Locadora_de_veiculos.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 
@@ -28,7 +29,13 @@ namespace Locadora_de_veiculos.Controllers
         }
 
         //Edit
-
+        public ActionResult Edit (long? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+        }
 
     }
 }
