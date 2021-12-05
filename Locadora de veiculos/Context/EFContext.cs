@@ -9,12 +9,12 @@ namespace Locadora_de_veiculos.Context
 {
     public class EFContext : DbContext
     {
-        public EFContext() : base("Projeto")
+        public EFContext() : base("Locadora")
         {
             Database.SetInitializer<EFContext>
                 (new DropCreateDatabaseIfModelChanges<EFContext>());
         }
-        public DbSet<Cliente> Clientes { get; set }
+        public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Veiculo> Veiculos { get; set; }
     }
 }
