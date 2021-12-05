@@ -16,5 +16,6 @@ namespace Locadora_de_veiculos.Context
         }
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Veiculo> Veiculos { get; set; }
+        public DbSet<Locacao> Locacaos { get; set; }
     }
 }

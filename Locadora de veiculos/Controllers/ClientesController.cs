@@ -15,7 +15,7 @@ namespace Locadora_de_veiculos.Controllers
         // GET: Clientes
         public ActionResult Index()
         {
-            return View();
+            return View(context.Clientes.OrderBy(c => c.Nome));
         }
 
         //Create

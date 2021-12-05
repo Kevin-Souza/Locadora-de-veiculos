@@ -20,5 +20,7 @@ namespace Locadora_de_veiculos.Models
         public string Combustivel { get; set; }
 
         public string Cor { get; set; }
+
+        public virtual ICollection<Locacao> Locacaos { get; set; }
     }
 }

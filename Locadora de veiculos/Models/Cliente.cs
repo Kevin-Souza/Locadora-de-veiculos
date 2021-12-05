@@ -25,5 +25,7 @@ namespace Locadora_de_veiculos.Models
 
         public string CEP { get; set; }
 
+        public virtual ICollection<Locacao> Locacaos { get; set; }
+
     }
 }
