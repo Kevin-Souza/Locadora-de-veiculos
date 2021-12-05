@@ -13,8 +13,8 @@ namespace Locadora_de_veiculos.Models
         public string Email { get; set; }
         public string CPF { get; set; }
         public string NumCNH { get; set; }
-
-
-
+        public string Logradouro { get; set; }
+        public string Cidade { get; set; }
+        public string CEP { get; set; }
     }
 }

@@ -35,7 +35,29 @@ namespace Locadora_de_veiculos.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+            Cliente cliente = context.Clientes.Find(id);
+            if (cliente == null)
+            {
+                return HttpNotFound();
+            }
+            return View(cliente);
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit (Cliente cliente)
+        {
+            if (ModelState.IsValid)
+            {
+                context.Entry(cliente).State = System.Data.Entity.EntityState.Modified;
+                context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(cliente);
+        }
+
+        //Details
+
 
     }
 }
