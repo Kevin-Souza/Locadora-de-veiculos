@@ -13,7 +13,7 @@ namespace Locadora_de_veiculos.Controllers
         // GET: Veiculoss
         public ActionResult Index()
         {
-            return View(context.V);
+            return View(context.Veiculos.OrderBy(v => v.Nome));
         }
     }
 }
