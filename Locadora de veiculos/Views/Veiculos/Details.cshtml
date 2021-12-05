@@ -1,0 +1,74 @@
+﻿@model Locadora_de_veiculos.Models.Veiculo
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Veiculo</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Marca)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Marca)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Ano)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Ano)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Km)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Km)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Combustivel)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Combustivel)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Cor)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Cor)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.VeiculoID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
