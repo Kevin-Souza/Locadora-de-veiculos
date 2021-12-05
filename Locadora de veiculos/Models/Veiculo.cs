@@ -10,5 +10,15 @@ namespace Locadora_de_veiculos.Models
         public long VeiculoID { get; set; }
 
         public string Nome { get; set; }
+
+        public string Marca { get; set; }
+
+        public string Ano { get; set; }
+
+        public string Km { get; set; }
+
+        public string Combustivel { get; set; }
+
+        public string Cor { get; set; }
     }
 }
