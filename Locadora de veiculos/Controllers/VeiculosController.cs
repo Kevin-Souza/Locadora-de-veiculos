@@ -8,10 +8,12 @@ namespace Locadora_de_veiculos.Controllers
 {
     public class VeiculosController : Controller
     {
-        // GET: Veiculos
+        private EFContext context = new EFContext();
+
+        // GET: Veiculoss
         public ActionResult Index()
         {
-            return View();
+            return View(context.V);
         }
     }
 }

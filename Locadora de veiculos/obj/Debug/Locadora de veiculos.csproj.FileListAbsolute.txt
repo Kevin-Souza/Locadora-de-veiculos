@@ -1,0 +1,2 @@
+D:\DW_Rodrigues_(HD)\3_REGES\4º_Semestre_2021\Sistemas_Web_II\3_Exercícios\05_TrabalhoFinal\Locadora-de-veiculos\Locadora de veiculos\obj\Debug\Locadora de veiculos.csproj.AssemblyReference.cache
+D:\DW_Rodrigues_(HD)\3_REGES\4º_Semestre_2021\Sistemas_Web_II\3_Exercícios\05_TrabalhoFinal\Locadora-de-veiculos\Locadora de veiculos\obj\Debug\Locadora de veiculos.csproj.CoreCompileInputs.cache
