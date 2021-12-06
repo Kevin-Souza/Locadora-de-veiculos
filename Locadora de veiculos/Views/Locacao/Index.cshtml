@@ -1,17 +1,82 @@
-﻿
+﻿@model IEnumerable<Locadora_de_veiculos.Models.Locacao>
+
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Listagem de Locação";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <div> 
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["Message"]
     </div>
-</body>
-</html>
+}
+
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        Relação de Locação Registradas
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.LocacaoID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </th>
+                    <th>Cliente</th>
+                    <th>Veículo</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LocacaoID)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Cliente.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Veiculo.Nome)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Alterar", "Edit", new { id = item.LocacaoID })
+                            @Html.ActionLink("Detalhes", "Details", new { id = item.LocacaoID })
+                            @Html.ActionLink("Apagar", "Delete", new { id = item.LocacaoID })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="panel-footer panel-info">
+        @Html.ActionLink("Registrar nova Locação", "Create", null, new { @class = "btn btn-success" })
+    </div>
+</div>
+
+@section styles{
+    <link href="@Url.Content("~/Content/DataTables/css/dataTables.bootstrap.css")" rel="stylesheet" />
+}
+
+@section ScriptPage{
+    <script src="@Url.Content("~/Scripts/DataTables/jquery.dataTables.js")"></script>
+    <script src="@Url.Content("~/Scripts/DataTables/dataTables.bootstrap.js")"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('li').removeClass("active");
+            $('#liLocacao').addClass("active")
+            $('.table').dataTable({
+                "order": [[1, "asc"]]
+            });
+        });
+    </script>
+}
