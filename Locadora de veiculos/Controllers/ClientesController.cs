@@ -18,6 +18,11 @@ namespace Locadora_de_veiculos.Controllers
             return View(context.Clientes.OrderBy(c => c.Nome));
         }
 
+        public ActionResult Create()
+        {
+            return View();
+        }
+
         //Create
         [HttpPost]
         [ValidateAntiForgeryToken]
