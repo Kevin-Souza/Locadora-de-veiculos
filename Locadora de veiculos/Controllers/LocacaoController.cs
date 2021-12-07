@@ -10,10 +10,11 @@ namespace Locadora_de_veiculos.Controllers
     public class LocacaoController : Controller
     {
         private EFContext context = new EFContext();
+
         // GET: Locacao
         public ActionResult Index()
         {
-            return View(context.Locacaos.OrderBy(c => c.Nome));
+            return View(context.Locacaos.OrderBy(context => context.Nome));
         }
 
         // GET: Locacao/Details/5

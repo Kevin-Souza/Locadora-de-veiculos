@@ -16,34 +16,31 @@
             <div class="form-horizontal">
                 @Html.ValidationSummary(true, "",
                     new { @class = "text-danger" })
+
                 <div class="form-group">
-                    @Html.LabelFor(model => model.Nome,
-                        htmlAttributes: new
+                    @Html.LabelFor(model => model.ClienteID,
+                        "ClienteID", htmlAttributes: new
                              {
-                                 @class =
-                        "control-label col-md-2"
+                        @class = "control-label col-md-2"
                              })
                     <div class="col-md-10">
-                        @Html.EditorFor(model => model.Nome,
-                            new
-                                 {
-                                     htmlAttributes = new
-                                     {
-                                         @class =
-                            "form-control"
-                                     }
-                                 })
-                        @Html.ValidationMessageFor(model =>
-                            model.Nome, "", new
+                        @Html.DropDownList("ClienteID",
+                            null, htmlAttributes: new
                                  {
                                      @class =
-                            "text-danger"
+                            "form-control"
+                                 })
+                        @Html.ValidationMessageFor(model =>
+                            model.ClienteID, "", new
+                                 {
+                            @class = "text-danger"
                                  })
                     </div>
                 </div>
+
                 <div class="form-group">
                     @Html.LabelFor(model => model.VeiculoID,
-                        "FabricanteId", htmlAttributes: new
+                        "VeiculoID", htmlAttributes: new
                              {
                         @class = "control-label col-md-2"
                              })
@@ -61,11 +58,12 @@
                                  })
                     </div>
                 </div>
+
             </div>
             <div class="panel-footer panel-info">
                 <div class="col-md-offset-2 col-md-10">
                     <input type="submit" value="Adicionar Locação" class="btn btn-danger" />
-                    @Html.ActionLink("Retornar para a listagem de Locações",
+                    @Html.ActionLink("Retornar para a listagem de Locação",
                         "Index", null, new { @class = "btn btn-warning" })
                 </div>
                 <br />
@@ -79,7 +77,7 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $('li').removeClass("active");
-            $('#liLocacao').addClass("active")
+            $('#liLocacaos').addClass("active")
         });
     </script>
 }
