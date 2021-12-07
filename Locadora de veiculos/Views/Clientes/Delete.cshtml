@@ -2,96 +2,254 @@
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "Deletar Cliente";
+    ViewBag.Title = "Apagar Cliente";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Delete</title>
-</head>
-<body>
-    <h3>Are you sure you want to delete this?</h3>
-    <div>
-        <h4>Cliente</h4>
-        <hr />
-        <dl class="dl-horizontal">
-            <dt>
-                @Html.DisplayNameFor(model => model.Nome)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Nome)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Telefone)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Telefone)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Email)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Email)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.CPF)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.CPF)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.NumCNH)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.NumCNH)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Logradouro)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Logradouro)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Cidade)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Cidade)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.CEP)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.CEP)
-            </dd>
-    
-        </dl>
-    
-        @using (Html.BeginForm()) {
-            @Html.AntiForgeryToken()
-    
-            <div class="form-actions no-color">
-                <input type="submit" value="Delete" class="btn btn-default" /> |
-                @Html.ActionLink("Back to List", "Index")
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        Dados do Cliente a ser Removido
+    </div>
+    <div class="panel-body">
+        <div class="form-group">
+            @Html.LabelFor(model => model.Nome)
+            <br />
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-user"></i>
+                </span>
+                @Html.EditorFor(Model => Model.Nome, new
+           {
+               htmlAttributes =
+               new { @class = "form-control", disabled = "disabled" }
+           })
             </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Telefone)
+            <br />
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-user"></i>
+                </span>
+                @Html.EditorFor(Model => Model.Telefone, new
+           {
+               htmlAttributes =
+               new { @class = "form-control", disabled = "disabled" }
+           })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email)
+            <br />
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-user"></i>
+                </span>
+                @Html.EditorFor(Model => Model.Email, new
+           {
+               htmlAttributes =
+               new { @class = "form-control", disabled = "disabled" }
+           })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CPF)
+            <br />
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-user"></i>
+                </span>
+                @Html.EditorFor(Model => Model.CPF, new
+           {
+               htmlAttributes =
+               new { @class = "form-control", disabled = "disabled" }
+           })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.NumCNH)
+            <br />
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-user"></i>
+                </span>
+                @Html.EditorFor(Model => Model.NumCNH, new
+           {
+               htmlAttributes =
+               new { @class = "form-control", disabled = "disabled" }
+           })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Logradouro)
+            <br />
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-user"></i>
+                </span>
+                @Html.EditorFor(Model => Model.Logradouro, new
+           {
+               htmlAttributes =
+               new { @class = "form-control", disabled = "disabled" }
+           })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Cidade)
+            <br />
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-user"></i>
+                </span>
+                @Html.EditorFor(Model => Model.Cidade, new
+           {
+               htmlAttributes =
+               new { @class = "form-control", disabled = "disabled" }
+           })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CEP)
+            <br />
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-user"></i>
+                </span>
+                @Html.EditorFor(Model => Model.CEP, new
+           {
+               htmlAttributes =
+               new { @class = "form-control", disabled = "disabled" }
+           })
+            </div>
+        </div>
+
+    </div>
+    <div class="panel-footer panel-info">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <input type="submit" value="Remover Cliente"
+                   class="btn btn-danger" />
+            @Html.ActionLink("Retornar para a listagem", "Index", null,
+           new { @class = "btn btn-info" })
         }
     </div>
-</body>
-</html>
+</div>
+
+@section ScriptPage{
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('li').removeClass("active");
+            $('#liClientes').addClass("active")
+        });
+    </script>
+}
+
+
+
+@*// -- Código Antigo -- \\*@
+@*@{
+        Layout = "~/Views/Shared/_Layout.cshtml";
+        ViewBag.Title = "Deletar Cliente";
+    }
+
+    <!DOCTYPE html>
+
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Delete</title>
+    </head>
+    <body>
+        <h3>Are you sure you want to delete this?</h3>
+        <div>
+            <h4>Cliente</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Nome)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Telefone)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Telefone)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Email)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.CPF)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.CPF)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.NumCNH)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.NumCNH)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Logradouro)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Logradouro)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Cidade)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Cidade)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.CEP)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.CEP)
+                </dd>
+
+            </dl>
+
+            @using (Html.BeginForm()) {
+                @Html.AntiForgeryToken()
+
+                <div class="form-actions no-color">
+                    <input type="submit" value="Delete" class="btn btn-default" /> |
+                    @Html.ActionLink("Back to List", "Index")
+                </div>
+            }
+        </div>
+    </body>
+    </html>*@
