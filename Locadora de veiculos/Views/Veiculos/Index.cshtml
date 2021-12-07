@@ -14,9 +14,6 @@
             <thead>
                 <tr>
                     <th>
-                        @Html.DisplayNameFor(model => model.VeiculoID)
-                    </th>
-                    <th>
                         @Html.DisplayNameFor(model => model.Nome)
                     </th>
                     <th>
@@ -29,10 +26,10 @@
                         @Html.DisplayNameFor(model => model.Km)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model => model.Combustivel)
+                        @Html.DisplayNameFor(model => model.Cor)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model => model.Cor)
+                        @Html.DisplayNameFor(model => model.Valor)
                     </th>
                     <th>
 
@@ -43,9 +40,6 @@
                 @foreach (var item in Model)
                 {
                     <tr>
-                        <td>
-                            @Html.DisplayFor(ModelItem => item.VeiculoID)
-                        </td>
                         <td>
                             @Html.DisplayFor(modelItem => item.Nome)
                         </td>
@@ -59,10 +53,10 @@
                             @Html.DisplayFor(modelItem => item.Km)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Combustivel)
+                            @Html.DisplayFor(modelItem => item.Cor)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Cor)
+                            @Html.DisplayFor(modelItem => item.Valor)
                         </td>
                         <td>
                             @Html.ActionLink("Alterar", "Edit", new { id = item.VeiculoID }) |

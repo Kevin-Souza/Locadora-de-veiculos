@@ -21,6 +21,8 @@ namespace Locadora_de_veiculos.Models
 
         public string Cor { get; set; }
 
+        public string Valor { get; set; }
+
         public virtual ICollection<Locacao> Locacaos { get; set; }
     }
 }
